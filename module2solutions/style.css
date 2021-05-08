@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    
+}
+.container{
+  
+    margin-left: 2em;
+    margin-top: 8em;
+}
+.box1{
+    width: 30%;
+    height: 35%;
+    background-color: rgb(216, 107, 243);
+    border: 3px black solid;
+    float: left;
+}
+.box2{
+    width: 30%;
+    height: 35%;
+    background-color: rgb(216, 107, 243);
+    border: 3px black solid;
+  
+   margin-left: 3em;
+  float: left;
+    
+
+}
+.box3{
+    width: 30%;
+    height: 35%;
+    background-color: rgb(216, 107, 243);
+    border: 3px black solid;
+  margin-right: 2em;
+  float: right;
+  font-size: 20px;
+    
+}
+.box1 h3{
+    float:right;
+   background-color: black;
+  border: 2px solid white;
+    color: white;
+    padding: 5px;
+    margin-top: 0px;
+   
+    
+    
+}
+.box2 h3{
+    float:right;
+    background-color:yellow;
+    color:black;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+    
+}
+.box3 h3{
+    float:right;
+    background-color:chartreuse;
+    color:black;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+    
+}
+.container p{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 3em;
+   
+}
+@media (min-width:768px) and (max-width:991px){
+    .box1{
+        width: 45%;
+        height: 35%;
+        
+    }
+    .box2{
+        width: 45%;
+        height: 35%;
+       
+        margin-left: 1em;
+    }
+    .box3{
+        width: 92%;
+        height: 35%;
+        float: left;
+        margin-top: 2em;
+    }
+    
+}
+@media (max-width:767px){
+    .box1{
+        width: 90%;
+        height: 38%;
+        
+    }
+    .box2{
+        width: 90%;
+        height: 38%;
+       float: left;
+       margin-top: 1em;
+       margin-left: 0em;
+    }
+    .box3{
+        width: 90%;
+        height: 38%;
+        float: left;
+        margin-top: 1em;
+    }
+    .container p{
+        font-size: 15px;
+    }
+   
+}
